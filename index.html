@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans:wght@600&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4660125b62.js" crossorigin="anonymous"></script>
+    <title>Ui Tech</title>
+</head>
+<body>
+    <header>
+        <div class="header-l-bg"> 
+        </div>
+        <div class="header">
+            <section class="header-l"><h5>TechiT</h5><i class="fa-solid fa-microchip"></i>
+            </section>
+            <section></section>
+        <section class="header-r">
+            <input type="text"><h5>Search</h5>
+            <i class="fa-solid fa-bag-shopping"></i>
+            <div class="circle"><h6>>></h6></div>
+        </section>
+        </div>
+    </header>
+    <section class="mid-section">
+        <div class="l-div">
+            <h2>BEST SELLER</h2>
+        </div>
+        <div class="r-div"><h5>Accessories</h5></div>
+    </section>
+    <section class="last-section">
+        <div class="l-article">
+            <article class="article-box start-box">
+                <img src="img/pic-1.jpg" alt="">
+                <div class="sub-box">
+                    <h3>MSI Raider GE66 Deluxe Edition</h3>
+                    <h2>৳<span id="deep-price">489,900</span></h2>
+                    <p>12UHS Core i9 12th Gen RTX 3080 Ti 16GB Graphics 15.6" UHD Gaming Laptop</p>
+                    <div class="small-div">
+
+
+
+                        <button id="deep-minus" class="btn btn-deep"><i class="fa-solid fa-minus"></i></button>
+                       <input id="deep-display" type="number" value="0" min="0">
+                        <button id="deep-plus" class="btn btn-deep"><i class="fa-solid fa-plus"></i></button>
+
+
+
+
+
+                    </div>
+                </div>
+            </article>
+            <article class="article-box end-box">
+                <img src="img/pic-2.jpg" alt="">
+                <div class="sub-box end-sub-box">
+                    <h3>Dell XPS 15 9510 Edition</h3>
+                    <h2>৳<span>275,000</span></h2>
+                    <p>Core i9 11th Gen RTX 3050 Ti Super 4GB Graphics 15.6" FHD+ Gaming Laptop</p>
+                    <div class="small-div end-small">
+
+
+                        <button id="light-minus" class="btn btn-light"><i class="fa-solid fa-minus"></i></button>
+                        <input id="light-display" type="number" value="0" min="0">
+                        <button id="light-plus" class="btn btn-light"><i class="fa-solid fa-plus"></i></button>
+
+
+
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="r-article">
+            <article class="my-r-article">
+                <h3>Order Summary</h3>
+                <div class="cmn-div"><h4>Price</h4><h4>৳<span id="subtotal-price">00</span></h4></div>
+                <div class="cmn-div"><h4>Tax(5%)</h4><h4>৳<span id="tax-amount">00</span></h4></div>
+                <div class="cmn-div"><h4>Shipping</h4><span class="free">Free</span></div>
+                <hr>
+                <div class="cmn-div"><h3>Total</h3><h3>৳<span id="grandTotal">00</span></h3></div>
+                <button id="order-btn" class="order-btn">Order</button>
+            </article>
+        </div>
+    </section>
+    <footer>
+        <h6>@Hossicoder</h6>
+    </footer>
+    <script src="app.js"></script>
+    
+</body>
+</html>

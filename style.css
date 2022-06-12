@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    font-family: 'Roboto', sans-serif;
+}
+.header-l-bg{
+    background-color: #dff3fb;
+    width: 800px;
+    height:800px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0rem;
+    position: absolute;
+    top:0;
+    width: 100%;
+}
+.header-l{
+    display: flex;
+   font-size: 25px;
+   color:#686de0;
+}
+.header-l h5{
+    margin-right: .3rem;
+    font-weight: bold;
+}
+.header-r{
+    display: flex;
+    color:#686de0;
+}
+.header-r input{
+    width: 300px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #7f8c8d;
+    margin-right: 2rem;
+}
+.header-r h5{
+    position: absolute;
+    padding: 15px 15px;
+    font-size: 15px;
+}
+.header-r i{
+    margin: 15px;
+    font-size: 20px;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    margin: 10px 15px;
+    border-radius: 50%;
+    background-color: #9b9edf;
+}
+.circle h6{
+    font-size: 1rem;
+    margin: 5px 8px;
+    color: white;
+}
+.mid-section{
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    display: flex;
+    justify-content: space-around;
+    color: #5559db;
+    align-items: center;
+}
+.mid-section h2{
+    font-size: 3rem;
+    margin-top: 40px;
+}
+.mid-section h5{
+    font-size: 1.2rem;
+}
+.last-section{
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    display: flex;
+}
+.l-article{
+    width: 50%;
+    display: flex;
+    padding: 20px;
+}
+.article-box{
+   width: 50%;
+   background-color: white;
+   margin: 10px;
+   padding: 10px;
+   border-radius: 25px;
+   box-shadow: none;
+   transition: 1s;
+}
+.article-box:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    transition: .5s all;
+    
+}
+.article-box img{
+    width: 80%;
+    margin: 5px;
+    border-radius: 35px;
+}
+.sub-box{
+    background-color: #6e71d7;
+    border-radius: 25px;
+    padding: .8rem;
+}
+.sub-box h3,p{
+    margin: 20px 15px;
+}
+.small-div{
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.small-div i{
+    color: white;
+}
+.btn-deep{
+    background-color: #3d3f7864;
+}
+.btn-deep,.btn-light:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    transition: .5s all;
+}
+
+.start-box{
+    color: white;
+    transition: 1s all ease;
+}
+.start-box:hover{
+    transform: translateX(-5%);
+    transition: .5s all;
+}
+.end-box{
+    color:#6e71d7;
+    transition: 1s all ease;
+}
+.end-box:hover{
+    transform: translateX(5%);
+    transition: .5s all;
+}
+.end-sub-box{
+    background-color: #EFE8F7;
+}
+.btn-light{
+    background-color:#f7f7fc;
+   transition: 1s all;
+}
+.end-small i{
+    color:#5559db
+}
+.r-article{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.cmn-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.my-r-article{
+    padding: 30px;
+    background-color: #dff3fb;
+    width: 50%;
+    border-radius: 25px;
+    color:#5559db;
+   box-shadow: none;
+    transition: 1s;
+}
+.my-r-article:hover{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: all .5s ease;
+    transform: scale(1.1);
+}
+.my-r-article h3{
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+.order-btn{
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    background-color: #5559db;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.free{
+    color:#27ae60;
+    font-weight: bold;
+}
+footer h6{
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 2%;
+    color:#7f8c8d;
+    padding: 5px;
+}
+.sub-box h2{
+    text-align: center;
+}
+.small-div input{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+}
+.small-div input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.order-div{
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    padding: 75px 65px;
+   color: white;
+    background-color:#5559db;
+    border-radius: 25px;
+}
+.order-div h3{
+    font-size: 40px;
+    margin: 20px 0px;
+}
